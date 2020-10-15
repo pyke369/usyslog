@@ -1,0 +1,6 @@
+usyslog
+debian/usyslog
+debian/*debhelper*
+debian/*substvars*
+debian/files
+_*

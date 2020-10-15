@@ -1,0 +1,14 @@
+[Unit]
+Description=usyslog
+After=network.target
+
+[Service]
+EnvironmentFile=/etc/default/usyslog
+StandardOutput=null
+StandardError=journal
+ExecStart=/usr/bin/usyslog ${SOURCE} ${DESTINATION}
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

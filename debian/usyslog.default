@@ -1,0 +1,5 @@
+# base configuration
+
+ENABLED=1
+SOURCE=/var/run/usyslog
+DESTINATION=udp://localhost

@@ -1,0 +1,5 @@
+usyslog (1.0.0) stable; urgency=medium
+
+  * initial release
+
+ -- Pierre-Yves Kerembellec <py.kerembellec@gmail.com>  Tue, 03 Dec 2019 16:17:43 +0100
